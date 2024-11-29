@@ -1,0 +1,75 @@
+*{
+    margin: 0   ;
+}
+
+body{
+    background: hsl(47, 88%, 63%) ;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;    
+    font-style: normal;
+    
+}
+#container{
+    width: 520px;
+    height: 600 px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #fff;
+    margin: 100px auto;
+    box-shadow: 10px 10px black;
+
+}
+#art{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 500px;
+    
+    
+}
+#top{
+    margin: 10px 10px 20px 10px;
+}
+.learning   {
+    padding: 5px 10px;
+    
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    
+    margin-bottom: 15px;   
+}
+.learning+p{
+    margin: 0px 0px 15px 0  ;
+}
+h1{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+h1+p{
+    margin-left: 10px;
+    margin-bottom: 40px;
+    color: hsl(0, 0%, 42%);
+    width: 450px;
+}
+p{
+    font-size: 16px;
+}
+#avatar{
+    display: inline;
+    width: 40px;
+
+}
+#name{
+    display: inline ;
+    position: relative;
+    bottom: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
